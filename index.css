@@ -1,0 +1,178 @@
+body {
+  background-color: rgba(204, 197, 188, 0.486);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(43, 42, 42, 0.863);
+  margin: 0;
+}
+
+.backgroundContainer {
+  background-image: url(akfBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 235px;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.logoContainer {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.description {
+  color: rgba(153, 141, 88, 0.678);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  letter-spacing: 26px;
+  font-weight: 900;
+  background-color: rgba(235, 235, 235, 0.26);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(31, 30, 30, 0.918);
+  margin-right: 0.5cm;
+}
+
+a:hover {
+  color: rgb(209, 182, 28);
+  transition-duration: 1s;
+  cursor: pointer;
+  border-bottom: 1px solid gold;
+}
+
+nav {
+  background: rgb(250, 249, 249);
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+section {
+  display: flex;
+}
+
+.imageContainer {
+  margin: auto;
+  display: inline;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2px;
+}
+
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 2px;
+}
+
+.column img {
+  margin: 4px;
+  vertical-align: middle;
+}
+
+.home-div {
+  text-align: center;
+  padding-bottom: 15px;
+  margin: 5px;
+}
+
+.home-div h3 {
+  color: rgb(197, 152, 5);
+}
+
+.home-div h2 {
+  color: beige;
+  background: rgba(0, 0, 0, 0.493);
+}
+
+.danceTypeContainer {
+  color: rgb(58, 57, 57);
+}
+
+.tableContainer {
+  height: auto;
+  position: relative;
+}
+
+table {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgba(29, 21, 5, 0.856);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+thead {
+  font-size: large;
+  color: rgba(219, 215, 207, 0.808);
+  padding: 8px;
+  background-color: rgba(8, 7, 3, 0.945);
+}
+
+tbody {
+  color: rgb(92, 91, 91);
+}
+
+td {
+  padding: 8px;
+  background-color: rgba(245, 222, 179, 0.479);
+}
+
+.home-div ul {
+  padding: 0;
+}
+
+.home-div ul li {
+  list-style-type: none;
+  padding: 3px 0;
+  margin: 0;
+}
+
+div input {
+  color: gray;
+  text-align: center;
+}
+
+.linkContainer {
+  text-align: center;
+  padding: 5px 0px;
+  margin: 0;
+}
+
+.linkContainer ul li {
+  display: inline-block;
+  margin-right: 0.5cm;
+  font-size: x-large;
+}
